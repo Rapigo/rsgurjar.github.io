@@ -14,7 +14,7 @@ author_profile: true
 
 ----------------------------------------------------------------
 <!-- ### _**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors**_ <br> -->
-<!-- <span style="font-size:15px"> (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)</span> -->
+<!-- <span style="font-size:15px"> (with Daanish Padha) ()</span> -->
 ### **Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** <br>
 (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
 <details>
