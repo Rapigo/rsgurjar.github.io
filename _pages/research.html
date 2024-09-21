@@ -186,24 +186,9 @@ img {vertical-align: middle;}
 </div>
 <div class="row">
 	<div class="column left">
-	 <div class="slideshow-container">
-
-		 <div class="mySlides fade">
-  			<div class="numbertext">1 / 2</div>
-  				<img src="../images/K3PRF_short_horizon_plots.png" style="width:100%" onclick="plusSlides(-1)">
-  				<div class="text">Forecasting --- Shorter Horizion</div>
-			</div>
-
-		 <div class="mySlides fade">
-  			<div class="numbertext">2 / 2</div>
-  				<img src="../images/K3PRF_long_horizon_plots.png" style="width:100%" onclick="plusSlides(+1)">
-  				<div class="text">Forecasting --- Longer Horizion</div>
-			</div>
-
-		<a class="prev" onclick="plusSlides(-1)">❮</a>
-		<a class="next" onclick="plusSlides(1)">❯</a>
-		</div>
-				
+          <a href="#Risk_Level" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/SIF_archi.png" onclick="op(this.src)">
+		
 	  </div>
 	
 	 <div class="column right">
@@ -240,10 +225,10 @@ img {vertical-align: middle;}
 
 
 	
-<!-- Working Papers -->
+<!-- Submitted For Publication -->
 <hr class="featurette-divider ">
 <div align="center" id="WP">
-<h1> Working Papers</h1> <br>
+<h1> Submitted for Publication </h1> <br>
 </div>
 
 	
@@ -307,150 +292,6 @@ img {vertical-align: middle;}
 		</div>
 	</div>
 
-
-
-
-	
-<!-- Famine -->
-<hr class="featurette-divider ">
-<div id="Famine">
-<span style="font-size:20px; color: black; font-weight:bold"> Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors </span><br>
-<span style="font-size:17px"> (with Zhian Hu and Chuanchuan Zhang) </span>
-</div>
-<div class="row">
-	<div class="column left">		
-	  <a href="#Famine" target="_blank ">
-<!-- 		<img class="img-thumbnail img-responsive " src="../images/Famine.jpg" onclick="op(this.src)"> -->
-<!-- 		  /* image slider: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */ -->
-		<div class="slideshow-container">
-		<div class="mySlides fade">
-  			<div class="numbertext">1 / 2</div>
-  				<img src="../images/Famine_HC.png" style="width:100%" onclick="plusSlides(+1)">
-  				<div class="text">Famine Effect --- High Clan Strength</div>
-			</div>
-
-		<div class="mySlides fade">
-  			<div class="numbertext">2 / 2</div>
-  				<img src="../images/Famine_LC.png" style="width:100%" onclick="plusSlides(-1)">
-  				<div class="text">Famine Effect --- Low Clan Strength</div>
-			</div>
-
-		<a class="prev" onclick="plusSlides(-1)">❮</a>
-		<a class="next" onclick="plusSlides(1)">❯</a>
-		</div>
-
-		  <div style="text-align:center">
-  			<span class="dot" onclick="currentSlide(1)"></span> 
-  			<span class="dot" onclick="currentSlide(2)"></span> 
-		</div>
-
-		<script>
-		let slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-  			showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-  			showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-  			let i;
-  			let slides = document.getElementsByClassName("mySlides");
- 			 let dots = document.getElementsByClassName("dot");
-  			if (n > slides.length) {slideIndex = 1}    
-  			if (n < 1) {slideIndex = slides.length}
- 			 for (i = 0; i < slides.length; i++) {
-    				slides[i].style.display = "none";  
- 			 }
-  			for (i = 0; i < dots.length; i++) {
-   				 dots[i].className = dots[i].className.replace(" active", "");
-  			}
-  			slides[slideIndex-1].style.display = "block";  
-  			dots[slideIndex-1].className += " active";
-			}
-		</script>
-	  </a>
-	  </div>
-	
-	 <div class="column right">
-		<h3 class="featurette-heading ">This paper examines how the impact of traumatic experiences on contemporary trust could
-		vary across different initial social capital levels.</h3>
-
-		 <h3>
-			<a href="https://dadasmash.github.io/dagong.github.io/files/famine_clan_trust.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-			<b>[Manuscript]</b></a>
-		</h3> 
-		 
-		 <details>
-		<summary>Abstract</summary>
-		<br>
-		This paper examines how the impact of traumatic experiences on contemporary trust could
-		vary across different initial social capital levels within the context of the Confucian clan and
-		the Great Chinese Famine. Our triple-differences analysis exploit county-level variation in
-		famine intensity, variation in famine exposure based on birth cohorts, and geographic variation 
-		in the initial clan culture. We use soil suitability to instrument for famine intensity.
-		We find that traumatic experiences strengthen trust among clan members in areas with high
-		levels of initial social capital. Our findings are robust to model choice and pass placebo tests,
-		and remain stable in a event study model.
-		</details>
-		 
-
-		</div>
-	</div>
-	
-
-<!-- Mass New Hope -->
-<hr class="featurette-divider ">
-<div id="Mass_NewHope">
-<span style="font-size:20px; color: black; font-weight:bold"> Mass Reproducibility and Replicability: A New Hope </span><br>	
-<span style="font-size:17px"> (with Abel Brodeur, Derek Mikola, Nikolai Cook et al.) </span><br>
-</div>
- <br>
-
-<div class="row">
-	<div class="column left">
-					
-	  <a href="#Mass_NewHope" target="_blank ">
-		<img class="img-thumbnail img-responsive " src="../images/Mass_NewHope.PNG" onclick="op(this.src)">
-	  </a>
-	  </div>
-	
-	 <div class="column right">
-		<h3 class="featurette-heading ">The present study pushes the boundaries of understanding research reliability by mass reproducing
-and replicating claims from 110 papers in leading economic and political science outlets. </h3>
-		 
-		<h3>
-			
-			<b>[Manuscript will be available soon]</b>
-		</h3> 
-		 
-		<details>
-		<summary>Abstract</summary>
-		<br>
-		The present study pushes the boundaries of understanding research reliability by mass reproducing
-and replicating claims from 110 papers in leading economic and political science outlets. The
-analysis, involving computational reproducibility checks and robustness assessments, reveals
-several patterns. First, we uncover a high rate (over 85%) of fully computationally reproducible
-results. Second, excluding very minor errors like missing packages or paths, we uncover coding
-errors for about 25% of studies, with some studies containing multiple errors. Third, we test
-the robustness of the results to 5,494 re-analyses. We find a robustness reproducibility of 71%.
-Robustness reproducibility rates are relatively higher for re-analyses which introduce new data
-and lower for re-analyses which change the sample or the definition of the dependent variable.
-Fourth, 52% of re-analysis effect size estimates are smaller than the original published estimates
-and the average statistical significance of a re-analysis is 77% of the original. Last, we rely on a
-many-analysts approach to answer eight additional research questions. Most analyst teams find
-a negative relationship between replicators’ experience and reproducibility, while finding no relationship
-between reproducibility and the provision of intermediate or even raw data combined
-with the necessary cleaning codes.
-
-		</details>
-					
-
-		</div>
-	</div>	
 
 	
 <hr class="featurette-divider ">
