@@ -1,0 +1,726 @@
+---
+layout: archive
+title: ""
+permalink: /research/
+author_profile: true
+---
+<html lang="en">
+<!-- define head and style (similar with import package) -->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+/*   height: 300px; Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	
+/* enlarge an image on hover in HTML:https://www.educative.io/answers/how-to-enlarge-an-image-on-hover-in-html */
+.div-img{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:20%;
+}
+img{
+    transition: transform 1s;
+    width:350px;
+    height:250px;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+img:hover{
+    transform:scale(1.5);
+}
+
+br {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 10; /* change this to whatever height you want it */
+}
+
+/* image slider: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgba(0,0,0,0.8);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/2 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  position: relative;
+  bottom: -30px;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+	
+</style>
+
+</head>
+	
+<!-- The body of webpage starts here -->
+<body>
+<div class="container">
+
+	
+<div align="center" id="top">
+<h1 class="text-muted" style="color: #888888; font-weight:600; text-shadow: 1px 1px #A9A9A9;"> 
+<i>RESEARCH</i> 
+</h1>
+  <h2 class="text-muted"> 
+<!--      <a href="#JMP" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
+	Job Market Paper &nbsp; &nbsp; &nbsp; 
+     </a> -->
+	  
+     <a href="#Pub" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
+	Publications &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     </a>
+     <a href="#WP" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
+	Working Papers &nbsp; &nbsp; &nbsp;
+     </a>
+     <br>
+	
+     <a href="#Other" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
+	Other Publications & Technical Reports &nbsp; &nbsp; &nbsp;
+     </a>
+     <a href="#WIP" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
+	Work in Progress &nbsp; &nbsp; &nbsp;
+     </a>	 
+  </h2>
+<br>
+</div>
+	
+	
+
+<!-- Publications -->
+<hr class="featurette-divider ">
+<div align="center" id="Pub">
+<h1> Publications </h1> <br>
+</div>
+
+<!-- Risk Level -->
+<hr class="featurette-divider ">
+<div id="Risk_Level">
+<span style="font-size:20px; color: black; font-weight:bold"> Economic Impacts of China’s Zero-COVID Policies </span><br>
+<span style="font-size:17px"> (with Zhuocheng Shang, Yaqin Su, Andong Yan and Qi Zhang) <br>
+	                       China Economic Review, Volume 83, 2024, 102101</span>
+</div>
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#Risk_Level" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/risk_level.png" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading ">In this paper, we offer the first comprehensive examination of the economic impacts of China's zero-COVID policy. 
+			To achieve this, we utilize an original panel dataset that includes county-level data on daily COVID risk levels.</h3>
+		 
+		 <h3>
+			<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4422902" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Manuscript]</b></a>&nbsp;
+			<a href="https://github.com/dadasmash/China_COVID_Risk_Level_Dataset" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[China COVID Risk Level Dataset]</b></a>
+		</h3> 
+		 
+		 
+		 <details>
+		<summary>Abstract</summary>
+		<br>
+		This paper presents an investigation of the economic consequences of the zero-COVID policy implemented by the Chinese government as a pilot experiment 
+		in using big data for country management from 2020 to 2022. Our study includes an original county-daily panel data set on the COVID-19 Risk Level issued by 
+		the State Council of the People’s Republic of China (PRC). 
+		To measure economic activities, we used satellite data on night lights and PM2.5, and geographical data on population mobility. 
+		Our findings indicate that the zero-COVID policy did not result in significant economic loss in 2021. However, in 2022, when the Omicron variant emerged, 
+		a stricter zero-COVID policy led to a 30% decline in mobility, a 1.17% decrease in PM2.5 and a 7.7% reduction in night lights. 
+		Based on our calculations, China experienced a 3.9% loss in GDP as a consequence of the implementation of the zero-COVID policy in 2022.
+		</details>
+		 
+		 <details>
+		 <summary>Media Coverage</summary>
+		 <br> <a href="https://www.bloomberg.com/news/articles/2024-01-18/did-china-s-economy-really-grow-5-2-in-2023-not-all-agree" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			Bloomberg;</a>&nbsp;
+		 </details>
+		 
+		</div>
+	</div>
+
+
+
+
+<!-- Zero_Covid -->
+<hr class="featurette-divider ">
+<div id="Zero_Covid">
+<span style="font-size:20px; color: black; font-weight:bold"> Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China </span><br>
+<!-- <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688" target="_blank" rel="noopener noreferrer" style="color: black; font-weight:bold; text-decoration: none;">
+  Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China</a> <br> -->
+	
+<span style="font-size:17px"> (with Andong Yan and Jialin Yu) <br>
+	                      Journal of Labor Research, 2024 </span><br>
+<span style="font-size:14px; font-weight:bold"> 
+		 Nomination For The Best Paper Award,
+		  <a href="https://cdm.iqs.url.edu/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+		  <b>1st International Workshop on the Chinese Development Model</b>
+		  </a>
+		  , 2022 </span>
+</div>
+
+<!-- Covid Edu -->
+<hr class="featurette-divider ">
+<div id="covid_edu">
+<span style="font-size:20px; color: black; font-weight:bold"> The Impacts of the Zero-Covid Policy on Academic Performance: Evidence for Primary and Secondary Students in China </span><br>
+<span style="font-size:17px"> (with Yaqin Su, Anping Xia, and Andong Yan) <br>
+			     Journal of Asian Economics, Volume 93, 2024, 101762 </span>
+</div>
+
+	
+<!-- Working Papers -->
+<hr class="featurette-divider ">
+<div align="center" id="WP">
+<h1> Working Papers</h1> <br>
+</div>
+
+<!-- Famine -->
+<hr class="featurette-divider ">
+<div id="Famine">
+<span style="font-size:20px; color: black; font-weight:bold"> Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors </span><br>
+<span style="font-size:17px"> (with Zhian Hu and Chuanchuan Zhang) </span>
+</div>
+<div class="row">
+	<div class="column left">		
+	  <a href="#Famine" target="_blank ">
+<!-- 		<img class="img-thumbnail img-responsive " src="../images/Famine.jpg" onclick="op(this.src)"> -->
+<!-- 		  /* image slider: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */ -->
+		<div class="slideshow-container">
+		<div class="mySlides fade">
+  			<div class="numbertext">1 / 2</div>
+  				<img src="../images/Famine_HC.png" style="width:100%" onclick="plusSlides(+1)">
+  				<div class="text">Famine Effect --- High Clan Strength</div>
+			</div>
+
+		<div class="mySlides fade">
+  			<div class="numbertext">2 / 2</div>
+  				<img src="../images/Famine_LC.png" style="width:100%" onclick="plusSlides(-1)">
+  				<div class="text">Famine Effect --- Low Clan Strength</div>
+			</div>
+
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		</div>
+
+		  <div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span> 
+  			<span class="dot" onclick="currentSlide(2)"></span> 
+		</div>
+
+		<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			let i;
+  			let slides = document.getElementsByClassName("mySlides");
+ 			 let dots = document.getElementsByClassName("dot");
+  			if (n > slides.length) {slideIndex = 1}    
+  			if (n < 1) {slideIndex = slides.length}
+ 			 for (i = 0; i < slides.length; i++) {
+    				slides[i].style.display = "none";  
+ 			 }
+  			for (i = 0; i < dots.length; i++) {
+   				 dots[i].className = dots[i].className.replace(" active", "");
+  			}
+  			slides[slideIndex-1].style.display = "block";  
+  			dots[slideIndex-1].className += " active";
+			}
+		</script>
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading ">This paper examines how the impact of traumatic experiences on contemporary trust could
+		vary across different initial social capital levels.</h3>
+
+		 <h3>
+			<a href="https://dadasmash.github.io/dagong.github.io/files/famine_clan_trust.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Manuscript]</b></a>
+		</h3> 
+		 
+		 <details>
+		<summary>Abstract</summary>
+		<br>
+		This paper examines how the impact of traumatic experiences on contemporary trust could
+		vary across different initial social capital levels within the context of the Confucian clan and
+		the Great Chinese Famine. Our triple-differences analysis exploit county-level variation in
+		famine intensity, variation in famine exposure based on birth cohorts, and geographic variation 
+		in the initial clan culture. We use soil suitability to instrument for famine intensity.
+		We find that traumatic experiences strengthen trust among clan members in areas with high
+		levels of initial social capital. Our findings are robust to model choice and pass placebo tests,
+		and remain stable in a event study model.
+		</details>
+		 
+
+		</div>
+	</div>
+	
+
+<!-- Mass New Hope -->
+<hr class="featurette-divider ">
+<div id="Mass_NewHope">
+<span style="font-size:20px; color: black; font-weight:bold"> Mass Reproducibility and Replicability: A New Hope </span><br>	
+<span style="font-size:17px"> (with Abel Brodeur, Derek Mikola, Nikolai Cook et al.) </span><br>
+</div>
+ <br>
+
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#Mass_NewHope" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/Mass_NewHope.PNG" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading ">The present study pushes the boundaries of understanding research reliability by mass reproducing
+and replicating claims from 110 papers in leading economic and political science outlets. </h3>
+		 
+		<h3>
+			
+			<b>[Manuscript will be available soon]</b>
+		</h3> 
+		 
+		<details>
+		<summary>Abstract</summary>
+		<br>
+		The present study pushes the boundaries of understanding research reliability by mass reproducing
+and replicating claims from 110 papers in leading economic and political science outlets. The
+analysis, involving computational reproducibility checks and robustness assessments, reveals
+several patterns. First, we uncover a high rate (over 85%) of fully computationally reproducible
+results. Second, excluding very minor errors like missing packages or paths, we uncover coding
+errors for about 25% of studies, with some studies containing multiple errors. Third, we test
+the robustness of the results to 5,494 re-analyses. We find a robustness reproducibility of 71%.
+Robustness reproducibility rates are relatively higher for re-analyses which introduce new data
+and lower for re-analyses which change the sample or the definition of the dependent variable.
+Fourth, 52% of re-analysis effect size estimates are smaller than the original published estimates
+and the average statistical significance of a re-analysis is 77% of the original. Last, we rely on a
+many-analysts approach to answer eight additional research questions. Most analyst teams find
+a negative relationship between replicators’ experience and reproducibility, while finding no relationship
+between reproducibility and the provision of intermediate or even raw data combined
+with the necessary cleaning codes.
+
+		</details>
+					
+
+		</div>
+	</div>	
+
+<!-- Covid Promotion -->
+<hr class="featurette-divider ">
+<div id="covid_promotion">
+<span style="font-size:20px; color: black; font-weight:bold"> Crisis Control in Top-down Bureaucracy: Evidence from China’s
+Zero-Covid Policy </span><br>
+<span style="font-size:17px"> (with Andong Yan and Ziao Zhao) </span>
+</div>
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#covid_promotion" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/covid_promotion.png" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading "> This study investigates the compliance of local Chinese officials with the zero-Covid policy throughout the COVID-19 pandemic.</h3>
+		 
+	 <h3>
+			<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4620337" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Manuscript]</b></a>
+		</h3> 
+		 
+		 
+		 <details>
+		<summary>Abstract</summary>
+		<br>
+		This study investigates the compliance of local Chinese officials with the zero-Covid policy throughout the COVID-19 pandemic. 
+		By examining biographical data from political elites and using a prefecture-day data set on risk levels – an indicator reflecting 
+		the status of zero-Covid policy - we discover a significant impact of prefecture leaders' promotion incentives on their response to 
+		COVID-19 outbreaks. Our empirical analysis reveals that leaders with stronger promotion incentives tend to exhibit increased reactions
+		to emerging cases. Evidence shows that such a phenomenon is driven by the different choices of the prefecture leaders facing relatively 
+		larger-scale COVID-19 outbreaks. Furthermore, local governors whose jurisdictions are more economically developed tend to enforce more 
+		stringent mobility restrictions. However, for prefecture leaders who oversee more developed regions and possess strong promotion incentives, 
+		the combined effects of these two factors tend to balance each other out in terms of pandemic response. 
+		These results suggest a natural tension between demands for crisis management during the pandemic and routine performance 
+		in economic development within the political framework of China.
+		</details>
+		 
+
+		</div>
+	</div>
+
+	
+
+<!-- Governor -->
+<hr class="featurette-divider ">
+<div id="Governor">
+<span style="font-size:20px; color: black; font-weight:bold"> Governor Press Release Effects on Public Beliefs and Behaviors During a Pandemic </span><br>
+<!-- <span style="font-size:17px"> (with Zhuocheng Shang) (draft coming soon)</span> -->
+</div>
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#Governor" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/Governor.png" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+<!-- 		<h3 class="featurette-heading "> two sentences short intro</h3> -->
+		 
+		 <details>
+		<summary>Abstract</summary>
+		<br>
+		This research focuses on how politician’s opinions, provided by local media, shape people’s belief and behavior related to COVID. 
+	        Specifically, how state governors’ press release (analyzed by natural language processing), covered by local media, 
+	        impact on people’s social distancing response, belief in conspiracy theory and trust in COVID vaccines.
+	        I use geographic variations, specifcally the difference between media market boundaries and state boundaries, as quasi-random exposures to local news and politicians’ press releases.
+		My approach involves collecting data on governors’ press releases and
+		employing Natural Language Processing models such as Topic LDA and
+		COVID-Bert to categorize news topics and measure politicians’ attitudes
+		towards COVID and related policies. Additionally, I leverage multiple
+		waves of survey data from MIT, CMU, and Facebook, providing
+		outcome variables such as individuals’ social distancing behavior, mask
+		usage, and vaccine intent.
+		</details>
+
+		</div>
+	</div>
+	
+<hr class="featurette-divider ">
+
+<!-- Other Publications & Technical Reports -->
+<div align="center" id="Other">
+<h1>Other Publications & Technical Reports</h1> <br>
+</div>
+
+<!-- Brahmin -->
+<hr class="featurette-divider ">
+<div id="Brahmin">
+<span style="font-size:20px; color: black; font-weight:bold">  Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022) </span><br>
+<span style="font-size:17px">(with 
+	<a href="https://sites.google.com/site/ollehammar85/home" target="_blank" rel="noopener noreferrer" style="text-decoration: none; font-size:17px">
+	Olle Hammar</a> )</span> &nbsp;
+	<a href="https://i4replication.org/discussion_paper.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none; font-size:17px">
+	<i>I4R Discussion Paper</i></a> 19, 2023 
+</div>
+ <br>
+
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#Brahmin" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/Brahmin.png" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading "> This is a replication report of 
+		  <a href="https://academic.oup.com/qje/article/137/1/1/6383014" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+		  <b>Gethin, Martínez- Toledano & Piketty (2022)</b>
+		  </a>.
+		 </h3> <br>
+		 
+		<h3>
+			<a href="https://dadasmash.github.io/dagong.github.io/files/I4R-DP019.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Manuscript]</b></a> &nbsp;
+			<a href="https://github.com/dadasmash/Brahmin_Replication" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Data & Code]</b></a>
+		</h3> 
+
+		 
+		<details>
+		<summary>Abstract</summary>
+		<br>
+		Gethin, Martínez-Toledano and Piketty (2022) analyze the long-run evolution of political cleavages using a new database 
+		on socioeconomic determinants of voting from approximately 300 elections in 21 Western democracies between 1948 and 2020. 
+		They find that, in the 1950s and 1960s, voting for the “left” was associated with lower-educated and low-income voters. 
+		After that, voting for the “left” has gradually become associated with higher-educated voters, 
+		while high-income voters have continued to vote for the “right”. 
+		In the 2010s, there is a disconnection between the effects of income and education on voting. 
+		In this replication, we first conduct a computational reproduction, using the replication package provided by the authors. 
+		Second, we do a robustness replication testing to what extent the original results are robust to i) restricting the sample to “core” left and right parties, 
+		ii) analyzing the top 80% versus bottom 20%, iii) weighting by population, iv) dropping control variables, 
+		and v) using country fixed effects. The main results of the paper are found to be largely replicable and robust.
+		</details>
+					
+
+		</div>
+	</div>
+
+
+<!-- Currency_Usage -->
+<hr class="featurette-divider ">
+<div id="Currency_Usage">
+<span style="font-size:20px; color: black; font-weight:bold">Currency Usage in Huizhou Region Before and After Taiping Rebellion: Evidence from Account Books</span><br>
+<span style="font-size:17px">(with
+	<a href="https://history.sjtu.edu.cn/Web/FacultyDetail/2?t=65" target="_blank" rel="noopener noreferrer" style="text-decoration: none; font-size:17px">
+	Weipeng Yuan</a> )</span> &nbsp; 
+<a href="https://jhxk.cbpt.cnki.net/WKG/WebPublication/paperDigest.aspx?paperID=33fa28da-8092-4e92-bee1-047701588c55" target="_blank" rel="noopener noreferrer" style="text-decoration: none; font-size:17px">
+	<i>Jianghai Academic Journal</i> .2023,(01)</a> , in Chinese
+</div>
+ <br>
+
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#Currency_Usage" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/Currency_Usage.jpg" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading "> 
+		By using currency usage data collected from 19 century account book, we find that Taiping Rebellion had a significant impact on the regional economy. 
+		However, the usage of foreign silver dollar in Huizhou area rebounded rapidly after the war.
+		 </h3> <br>
+		 
+		 <h3>
+			<a href="https://dadasmash.github.io/dagong.github.io/files/Currency_Usage.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Manuscript]</b></a>
+		</h3> 
+		</div>
+	</div>
+<hr class="featurette-divider ">
+
+
+<!-- Work in Progress -->
+<div align="center" id="WIP">
+<h1> Work in Progress</h1> <br>
+</div>
+<hr class="featurette-divider ">
+
+	
+<!-- Pollution_Sleepless (Sandman) -->
+<div id="Sandman">
+<span style="font-size:20px; color: black; font-weight:bold">How does Air Pollution Affect
+Sleep? Survey and Social Media Evidence from the United States</span><br>
+<span style="font-size:17px">(with <a href="https://www.jingyanguo.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; font-size:17px">
+	Jingyan Guo</a> and Zhuocheng Shang)</span> 
+</div>
+<br>
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#Currency_Usage" target="_blank ">
+<!-- 		<img class="img-thumbnail img-responsive " src="../images/Currency_Usage.jpg" onclick="op(this.src)"> -->
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h3 class="featurette-heading "> 
+		 "Sleep, that knits up the ravelled sleeve of care. The death of each day's life, sore labour's bath. Balm of hurt minds, chief nourisher in life's great feast...
+		Sleep's the one thing left to us. The one thing they couldn't get their filthy mitts on. Now, they're even grabbing that. Colonising it." <br>
+			--- Sleep No More (Doctor Who: Season 9, Episode 9)
+		 </h3> <br>
+		</div>
+	</div>
+<hr class="featurette-divider ">
+	
+
+<!-- -----------------------------------
+The part below is just for experiment purpose! inspired by: https://zwbai.github.io/#
+<hr class="featurette-divider ">
+<h3>Title of paper 1: blablabla</h3>
+<div class="row">
+						<div class="column left">
+					
+						        <a href="#zero_covid" target="_blank ">
+								<img class="img-thumbnail img-responsive " src="../images/zero-covid.png" onclick="op(this.src)">
+							</a>
+						</div>
+	
+						<div class="column right">
+							<h4 class="featurette-heading ">dadadadaggInfrastructure-Based Object Detection and Tracking for Cooperative Driving Automation: A Survey </h4>
+							<h5 class="text-muted "> 
+								<a href="https://www.researchgate.net/profile/Zhengwei_Bai" target="_blank">
+									<b>Zhengwei Bai</b>
+								</a>
+								, Guoyuan Wu, Xuewei Qi, Yongkang Liu, Kentaro Oguchi, Matthew J. Barth 
+							</h5>
+							<h5> 
+								<i>arXiv preprint arXiv:2201.11871</i> 
+							</h5>
+							<h5>
+								<a href="https://www.researchgate.net/publication/358232826_Infrastructure-Based_Object_Detection_and_Tracking_for_Cooperative_Driving_Automation_A_Survey" target="_blank">
+									[<u>Paper</u>]</a>, 
+								<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:Q8CADO705esJ:scholar.google.com/&amp;output=citation&amp;scisdr=CgXN0AlHEPTx5Irg5Cc:AAGBfm0AAAAAYgXm_CfevXJrg613HgaHStIOJQsjTsNO&amp;scisig=AAGBfm0AAAAAYgXm_A8a9IN9CUchDuprGVBDWOFKcmC4&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=en" target="_blank ">
+									[<u>CITE</u>]</a>
+							</h5>
+
+						</div>
+					</div>
+<hr class="featurette-divider ">
+<h3>Title of paper 2: blablabla</h3>
+<div class="row">
+	<div class="column left">
+					
+	  <a href="#zero_covid" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/zero-covid.png" onclick="op(this.src)">
+	  </a>
+	  </div>
+	
+	 <div class="column right">
+		<h4 class="featurette-heading ">dadadadaggInfrastructure-Based Object Detection and Tracking for Cooperative Driving Automation: A Survey </h4>
+		<h5 class="text-muted "> 
+		  <a href="https://www.researchgate.net/profile/Zhengwei_Bai" target="_blank">
+		  <b>Zhengwei Bai</b>
+		  </a>
+		  , Guoyuan Wu, Xuewei Qi, Yongkang Liu, Kentaro Oguchi, Matthew J. Barth 
+		</h5>
+		 
+		<h5> 
+	          <i>arXiv preprint arXiv:2201.11871</i> 
+		</h5>
+							
+		 <h5>
+			<a href="https://www.researchgate.net/publication/358232826_Infrastructure-Based_Object_Detection_and_Tracking_for_Cooperative_Driving_Automation_A_Survey" target="_blank">
+			[<u>Paper</u>]</a>, 
+			<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:Q8CADO705esJ:scholar.google.com/&amp;output=citation&amp;scisdr=CgXN0AlHEPTx5Irg5Cc:AAGBfm0AAAAAYgXm_CfevXJrg613HgaHStIOJQsjTsNO&amp;scisig=AAGBfm0AAAAAYgXm_A8a9IN9CUchDuprGVBDWOFKcmC4&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=en" target="_blank ">
+			[<u>CITE</u>]</a>
+		</h5>
+
+		</div>
+	</div>
+<hr class="featurette-divider ">
+------------------------------------------- -->
+
+<div align="center">
+  <h2 class="text-muted"> 
+     <a href="#top" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
+	Back to top &nbsp; &nbsp; &nbsp;
+     </a>	 
+  </h2>
+<br>
+</div>
+	
+
+</div> 
+</body>
+</html>
+<!-- this div, boy and html are for <div class="container"> and body,html in the very beginning rows-->
+
+<!-- how to add drowdown menu
+https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61 -->
+<!-- <details open>
+<summary>Abstract</summary>
+<br>
+Well, you asked for it!
+</details> -->
+
+<!-- 
+change font size, color and color for hyperlink 
+https://stackoverflow.com/questions/69797708/change-the-color-of-embedded-hyperlink-in-rmarkdown-slidy
+https://stackoverflow.com/questions/66221677/how-to-change-hyperlink-color-in-github-markdown
+-->
+
+<!-- {% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+{% for post in site.research reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+ -->
