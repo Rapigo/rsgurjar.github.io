@@ -245,13 +245,13 @@ img {vertical-align: middle;}
 		 <div class="mySlides fade">
   			<div class="numbertext">2 / 3</div>
   				<img src="../images/K3PRF_short_horizon_plots.png" style="width:100%" onclick="plusSlides(-1)">
-  				<div class="text"> Out of Sample Forecast --- Shorter Horizion</div>
+  				<div class="text"> Forecasts --- Shorter Horizion</div>
 			</div>
 
 		 <div class="mySlides fade">
   			<div class="numbertext">3 / 3</div>
   				<img src="../images/K3PRF_long_horizon_plots.png" style="width:100%" onclick="plusSlides(+1)">
-  				<div class="text">Out of Sample Forecast --- Longer Horizion</div>
+  				<div class="text"> Forecasts --- Longer Horizion</div>
 			</div>
 
 		
@@ -262,6 +262,7 @@ img {vertical-align: middle;}
 		  <div style="text-align:center">
   			<span class="dot" onclick="currentSlide(1)"></span> 
   			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span>   
 		</div>
 
 		<script>
@@ -324,7 +325,55 @@ img {vertical-align: middle;}
 </div>
 
 
+<!-- Work In Progress -->
+<hr class="featurette-divider ">
+<div align="center" id="WP">
+<h1> Work In Progress </h1> <br>
+</div>
 
+<!-- Autoencoder 3PRF -->
+<hr class="featurette-divider ">
+<div id="Auto_Encoder">
+<span style="font-size:20px; color: black; font-weight:bold"> Supervising Deep Dynamic Factor Models for Forecasting </span><br>
+<span style="font-size:17px"> (with Daanish Padha) <br></span>
+ 
+</div>
+<div class="row">
+	<div class="column left">
+          <img class="img-thumbnail img-responsive " src="../images/auto_archi.jpg" onclick="op(this.src)">
+	</div>		  		
+  	 
+  <div class="column right">
+		<h3 class="featurette-heading ">  We employ the supervision in deep learning methods to learn the underlying low-rank latent structure of the data. Then use 
+			this learning to forecast the out of sample time series. This method promises strong empirical performance. 
+		</h3>
+		 
+		 <h3>
+			<a href="https://github.com/rajveerjat/rajveerjat.github.io/blob/master/files/AutoEncoder.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<b>[Draft Coming Soon]</b></a>&nbsp;
+		</h3> 
+		 
+		 
+		 <details>
+		<summary>Abstract</summary>
+		<br>
+		  We forecast a single time series using a high-dimensional set of predictors. 
+		  When these predictors share common underlying dynamics, an approximate latent 
+	          factor model provides a powerful characterization of their co-movements. 
+		  These latent factors succinctly summarize the data and can also be used for prediction,
+		  alleviating the curse of dimensionality in high-dimensional prediction exercises. 
+		  However, forecasting using these latent factors suffers from two potential drawbacks.
+		  First, not all-pervasive factors among the set of predictors may be relevant, 
+		  and using all of them can lead to inefficient forecasts. The second shortcoming is the 
+	          assumption of linear dependence of predictors on the underlying factors. The first issue can be
+		  addressed by using some form of supervision, which leads to omitting irrelevant information. 
+		  The second issue can alleviated by allowing non-linear dependence of predictors on factors. 
+		  We use supervised deep dynamic factor models to learn the non-linear latent factor structure in the data. 
+		  We compare the forecasting performance of our method against the competing approaches in the literature.
+		 </details>
+		 
+		</div>
+</div>
 	
 	
 <hr class="featurette-divider ">
