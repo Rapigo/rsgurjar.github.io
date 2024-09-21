@@ -8,6 +8,19 @@ author_profile: true
 ## Job Market Paper
 
 ----------------------------------------------------------------
+<!-- ### _**Sufficient Instruments Filter**_ <br> -->
+<!-- <span style="font-size:15px">  ()</span> -->
+### **Sufficient Instruments Filter** <br>
+ (Draft)
+<a href="https://github.com/rajveerjat/rajveerjat.github.io/blob/master/files/JMP.pdf" target="_blank" rel="noopener noreferrer" style="color: black; font-weight:bold; text-decoration: underline;">
+ Sufficient Instruments Filter</a> <br>
+
+<details>
+<summary>Abstract</summary>
+<br>
+We introduce a new procedure to filter sufficient information from many instruments for the estimation of parameters in regression models with endogenous regressors.  Our method remains robust when the number of instruments exceeds the sample size, and performs well with invalid observed instruments, as long as the unobserved common factors among the observed instruments are valid. Our method generalizes existing approaches by offering three key advantages: the ability to incorporate supervision, the flexibility to accommodate non-linearity, and the capacity for sufficient dimension reduction.  We demonstrate, through extensive simulations, that our method consistently achieves lower bias and root mean squared error compared to competing methods, across many specifications.  We further validate our approach with two real-world applications, yielding meaningful insights into causal relationships.
+</details>
+
 
 
 ## Submitted for Publication
@@ -39,7 +52,7 @@ We forecast a single time series using a high-dimensional set of predictors. Whe
 <details>
 <summary>Abstract</summary>
 <br>
-We forecast a single time series using a high-dimensional set of predictors. When these predictors share common underlying dynamics, an approximate latent factor model provides a powerful characterization of their co-movements \cite{bai2003}. These latent factors succinctly summarize the data and can also be used for prediction, alleviating the curse of dimensionality in high-dimensional prediction exercises, see \cite{sw}. However, forecasting using these latent factors suffers from two potential drawbacks. First, not all-pervasive factors among the set of predictors may be relevant, and using all of them can lead to inefficient forecasts. The second shortcoming is the assumption of linear dependence of predictors on the underlying factors. The first issue can be addressed by using some form of supervision, which leads to omitting irrelevant information. The second issue can alleviated by allowing non-linear dependence of predictors on factors. We use supervised deep dynamic factor models to learn the non-linear latent factor structure in the data. We compare the forecasting performance of our method against the competing approaches in the literature.
+We forecast a single time series using a high-dimensional set of predictors. When these predictors share common underlying dynamics, an approximate latent factor model provides a powerful characterization of their co-movements. These latent factors succinctly summarize the data and can also be used for prediction, alleviating the curse of dimensionality in high-dimensional prediction exercises. However, forecasting using these latent factors suffers from two potential drawbacks. First, not all-pervasive factors among the set of predictors may be relevant, and using all of them can lead to inefficient forecasts. The second shortcoming is the assumption of linear dependence of predictors on the underlying factors. The first issue can be addressed by using some form of supervision, which leads to omitting irrelevant information. The second issue can alleviated by allowing non-linear dependence of predictors on factors. We use supervised deep dynamic factor models to learn the non-linear latent factor structure in the data. We compare the forecasting performance of our method against the competing approaches in the literature.
 
 </details>
 
