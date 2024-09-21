@@ -10,27 +10,19 @@ author_profile: true
 ----------------------------------------------------------------
 
 
-## Working Papers
+## Submitted for Publication
 
 ----------------------------------------------------------------
-<!-- ### _**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors**_ <br> -->
+<!-- ### _**Kernel Three Pass Regression Filter**_ <br> -->
 <!-- <span style="font-size:15px"> (with Daanish Padha) ()</span> -->
-### **Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** <br>
-(with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
+### **Kernel Three Pass Regression Filter** <br>
+(with Daanish Padha) (Manuscript)
 <details>
 <summary>Abstract</summary>
 <br>
-This paper examines how a traumatic experience across differential cultural configurations,
-can shed light on norms of risk sharing and community cultural persistence, in the context
-of Great Chinese Famine (1959-1961). We use cross mortality-clan-cohort variations and a
-difference-in-difference-in-differences method to study the evolution of clan culture values in
-the wake of the Famine. Our fnding documents that the famine exposed cohort that live
-in a stronger clan county report higher level of trust in their clan members, relative to the
-people who didn't perceive a sever famine. Our fnding are robust to a set of placebo tests
-and robustness check. The results remain stable for dynamic effects models. This paper
-contributes to literature on the effects on traumatic experience by focusing on a particular
-aspect, i.e., the formation and evolution of personal belief.
+We forecast a single time series using a high-dimensional set of predictors. When predictors share common underlying dynamics, a latent factor model estimated by the Principal Component method effectively characterizes their co-movements. These latent factors succinctly summarize the data and aid in prediction, mitigating the curse of dimensionality. However, two significant drawbacks arise: (1) not all factors may be relevant, and utilizing all of them in constructing forecasts leads to inefficiency, and (2) typical models assume a linear dependence of the target on the set of predictors, which limits accuracy. We address these issues through a novel method: Kernel Three-Pass Regression Filter. This method extends a supervised forecasting technique, the Three-Pass Regression Filter, to exclude irrelevant information and operate within an enhanced framework capable of handling nonlinear dependencies. Our method is computationally efficient and demonstrates strong empirical performance, particularly over longer forecast horizons.
 </details>
+
 
 <br>
 <!-- ### _**[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**_   -->
