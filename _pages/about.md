@@ -9,9 +9,8 @@ redirect_from:
 
 Welcome!
 
-I am a PhD Candidate in Economics at the University of California, Riverside. 
+I am a Ph.D. Candidate in Economics at the University of California, Riverside, currently on the job market for the 2024-2025 academic year.
 
-I'm on the job market 2024-25. 
 
 My research interests are Econometric Thoery, Financial Economics, High-dimensional and Non-parametric Econometrics.  My work focus on develop quantitative methods for economics by learning the fundamental aspects of the data generating process. 
 
