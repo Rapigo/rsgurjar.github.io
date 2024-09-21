@@ -151,21 +151,6 @@ img {vertical-align: middle;}
 <h1 class="text-muted" style="color: #888888; font-weight:600; text-shadow: 1px 1px #A9A9A9;"> 
 <i>RESEARCH</i> 
 </h1>
-  <h2 class="text-muted"> 
-<!--      <a href="#JMP" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
-	Job Market Paper &nbsp; &nbsp; &nbsp; 
-     </a> -->
-	  
-     <a href="#Pub" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
-	Submitted For Publication &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-     </a>
-     <br>
-
-     <a href="#WIP" target="_blank" style="color: #888888; font-weight:600; text-decoration: none;">
-	Work in Progress &nbsp; &nbsp; &nbsp;
-     </a>	 
-  </h2>
-<br>
 </div>
 	
 	
@@ -261,10 +246,47 @@ img {vertical-align: middle;}
 
 		<a class="prev" onclick="plusSlides(-1)">❮</a>
 		<a class="next" onclick="plusSlides(1)">❯</a>
+		 <a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
 		</div>
+
+		  <div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span> 
+  			<span class="dot" onclick="currentSlide(2)"></span> 
+		</div>
+
+		<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			let i;
+  			let slides = document.getElementsByClassName("mySlides");
+ 			 let dots = document.getElementsByClassName("dot");
+  			if (n > slides.length) {slideIndex = 1}    
+  			if (n < 1) {slideIndex = slides.length}
+ 			 for (i = 0; i < slides.length; i++) {
+    				slides[i].style.display = "none";  
+ 			 }
+  			for (i = 0; i < dots.length; i++) {
+   				 dots[i].className = dots[i].className.replace(" active", "");
+  			}
+  			slides[slideIndex-1].style.display = "block";  
+  			dots[slideIndex-1].className += " active";
+			}
+		</script>
+	      </a>
+	 </div>
 				
-	  </div>
-	
+	 
 	 <div class="column right">
 		<h3 class="featurette-heading ">  We propose a novel supervised and non-linear method of forecasting a single time series 
 			using a high-dimensional set of predictors. The method is computationally efficient and demonstrates strong empirical performance, 
@@ -290,9 +312,11 @@ img {vertical-align: middle;}
 		</details>
 		 
 		</div>
-	</div>
+</div>
 
 
+
+	
 	
 <hr class="featurette-divider ">
 
