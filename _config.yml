@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Rajveer Jat"
+  pronouns         : # example: "he/him"  
+  bio              : "PhD Candidate in Economics, UC Riverside"
+  location         : "Riverside, CA"
+  employer         : "University of California, Riverside"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rjat001@ucr.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
