@@ -20,14 +20,14 @@ author_profile: true
 
 ## Instructor, Dept. of Economics, UC Riverside
 
-- Economic Development: Theory and Policy (with Applications in Python). (Summer 2024) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON181_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/ECON181_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
-- Enviornmental Economics with Applications in R. (Summer 2023) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON143_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/ECON143_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
+- Economic Development: Theory and Policy (with Applications in Python). (Summer 2024) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON181_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/Summer2024_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
+- Enviornmental Economics with Applications in R. (Summer 2023) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON143_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/Summer2023_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
 
 ****
 
 ## Teaching Assistant, Dept. of Economics, UC Riverside
 
-- Econometric Theory III (Graduate level, Spring 2024) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
+- Econometric Theory III (Graduate level, Spring 2024) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/Spring2024_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
 - Statistics for Economics (Fall 2022 <a href="http://rajveerjat.github.io/files/Teaching_files/Fall2022_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a> , Winter 2024 <a href="http://rajveerjat.github.io/files/Teaching_files/Winter2024_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>)
 - Stock Market (Fall 2021 <a href="http://rajveerjat.github.io/files/Teaching_files/Fall2021_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>, Spring 2023 <a href="http://rajveerjat.github.io/files/Teaching_files/Spring2023_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>,
 Fall 2023 <a href="http://rajveerjat.github.io/files/Teaching_files/Fall2023_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>)
