@@ -9,7 +9,7 @@ author_profile: true
 
 ## Lead, Graduate Quantitaitve Methods Center, UC Riverside
 
-- Basic Quantitative Methods for Finance    (for MBA, Masters in Finance, MS in Financial Analytics, Fall'2024)
+- Basic Quantitative Methods for Finance  (for MBA, Masters in Finance, MS in Financial Analytics, Fall 2024)
 - High-dimensional Statistics : Making Sense of Big Data (for PhDs and MS students, Fall 2024)
 - Non-parametric Regressions : Inferences and Implementation in R (for PhDs and MS students,  Winter 2025)
 - Macroeconomics and Time Series Econometrics  (for Grad students,  Winter 2025)
@@ -28,9 +28,12 @@ author_profile: true
 ## Teaching Assistant, Dept. of Economics, UC Riverside
 
 - Econometric Theory III (Graduate level, Spring 2024) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
-- Statistics for Economics (Winter 2024)
-- Stock Market (Fall 2022)
-- Introduction to Microeconomics (Winter 2023)
+- Statistics for Economics (Fall 2022, Winter 2024)
+- Stock Market (Fall 2021, Spring 2023)
+- Intermediate Microecnomics (Summer 2022)
+- Introductory Econometrics I (Winter 2023)
+- Introduction to Macroeconomics (Winter 2022)
+- Introduction to Microeconomics (Spring 2022, Summer 2023)
 
 ****
 
