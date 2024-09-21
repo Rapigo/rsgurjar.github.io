@@ -179,50 +179,44 @@ img {vertical-align: middle;}
 <h1> Job Market Paper </h1> <br>
 </div>
 
-<!-- Risk Level -->
+<!-- Kernel 3PRF -->
 <hr class="featurette-divider ">
-<div id="Risk_Level">
-<span style="font-size:20px; color: black; font-weight:bold"> Economic Impacts of China’s Zero-COVID Policies </span><br>
-<span style="font-size:17px"> (with Zhuocheng Shang, Yaqin Su, Andong Yan and Qi Zhang) <br>
-	                       China Economic Review, Volume 83, 2024, 102101</span>
+<div id="Kernel_3PRF">
+<span style="font-size:20px; color: black; font-weight:bold"> Kernel Three Pass Regression Filter </span><br>
+<span style="font-size:17px"> (with Daanish Padha) <br>
+	                       </span>
 </div>
 <div class="row">
 	<div class="column left">
 					
-	  <a href="#Risk_Level" target="_blank ">
-		<img class="img-thumbnail img-responsive " src="../images/risk_level.png" onclick="op(this.src)">
+	  <a href="#Kernel_3PRF" target="_blank ">
+		<img class="img-thumbnail img-responsive " src="../images/K3PRF_long_horizon_plots.png" onclick="op(this.src)">
 	  </a>
 	  </div>
 	
 	 <div class="column right">
-		<h3 class="featurette-heading ">In this paper, we offer the first comprehensive examination of the economic impacts of China's zero-COVID policy. 
-			To achieve this, we utilize an original panel dataset that includes county-level data on daily COVID risk levels.</h3>
+		<h3 class="featurette-heading ">  We propose a novel supervised and non-linear method of forecasting a single time series 
+			using a high-dimensional set of predictors. The method is computationally efficient and demonstrates strong empirical performance, 
+			particularly over longer forecast horizons.</h3>
 		 
 		 <h3>
-			<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4422902" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+			<a href="https://github.com/rajveerjat/rajveerjat.github.io/blob/master/files/Kernel_3PRF.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
 			<b>[Manuscript]</b></a>&nbsp;
-			<a href="https://github.com/dadasmash/China_COVID_Risk_Level_Dataset" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-			<b>[China COVID Risk Level Dataset]</b></a>
 		</h3> 
 		 
 		 
 		 <details>
 		<summary>Abstract</summary>
 		<br>
-		This paper presents an investigation of the economic consequences of the zero-COVID policy implemented by the Chinese government as a pilot experiment 
-		in using big data for country management from 2020 to 2022. Our study includes an original county-daily panel data set on the COVID-19 Risk Level issued by 
-		the State Council of the People’s Republic of China (PRC). 
-		To measure economic activities, we used satellite data on night lights and PM2.5, and geographical data on population mobility. 
-		Our findings indicate that the zero-COVID policy did not result in significant economic loss in 2021. However, in 2022, when the Omicron variant emerged, 
-		a stricter zero-COVID policy led to a 30% decline in mobility, a 1.17% decrease in PM2.5 and a 7.7% reduction in night lights. 
-		Based on our calculations, China experienced a 3.9% loss in GDP as a consequence of the implementation of the zero-COVID policy in 2022.
+		  We forecast a single time series using a high-dimensional set of predictors. When predictors share common underlying dynamics, 
+	          a latent factor model estimated by the Principal Component method effectively characterizes their co-movements. 
+	          These latent factors succinctly summarize the data and aid in prediction, mitigating the curse of dimensionality. 
+	          However, two significant drawbacks arise: (1) not all factors may be relevant, and utilizing all of them in constructing forecasts 
+		  leads to inefficiency, and (2) typical models assume a linear dependence of the target on the set of predictors, which limits accuracy. 
+	          We address these issues through a novel method: Kernel Three-Pass Regression Filter. This method extends a supervised forecasting technique, 
+	          the Three-Pass Regression Filter, to exclude irrelevant information and operate within an enhanced framework capable of handling nonlinear dependencies.
+		  Our method is computationally efficient and demonstrates strong empirical performance, particularly over longer forecast horizons.
 		</details>
-		 
-		 <details>
-		 <summary>Media Coverage</summary>
-		 <br> <a href="https://www.bloomberg.com/news/articles/2024-01-18/did-china-s-economy-really-grow-5-2-in-2023-not-all-agree" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-			Bloomberg;</a>&nbsp;
-		 </details>
 		 
 		</div>
 	</div>
