@@ -28,12 +28,12 @@ author_profile: true
 ## Teaching Assistant, Dept. of Economics, UC Riverside
 
 - Econometric Theory III (Graduate level, Spring 2024) <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_syllabus.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>, <a href="http://rajveerjat.github.io/files/Teaching_files/ECON205C_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>.
-- Statistics for Economics (Fall 2022, Winter 2024)
+- Statistics for Economics (Fall 2022 <a href="http://rajveerjat.github.io/files/Teaching_files/Fall2022_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a> , Winter 2024<a href="http://rajveerjat.github.io/files/Teaching_files/Winter2024_reviews.pdf" target="_blank" rel="noopener noreferrer">[Reviews]</a>)
 - Stock Market (Fall 2021, Spring 2023)
 - Intermediate Microecnomics (Summer 2022)
 - Introductory Econometrics I (Winter 2023)
 - Introduction to Macroeconomics (Winter 2022)
-- Introduction to Microeconomics (Spring 2022, Summer 2023)
+- Introduction to Microeconomics (Spring 2022)
 
 ****
 
