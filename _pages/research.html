@@ -235,21 +235,27 @@ img {vertical-align: middle;}
 <!-- 		<img class="img-thumbnail img-responsive " src="../images/Famine.jpg" onclick="op(this.src)"> -->
 <!-- 		  /* image slider: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */ -->
 		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+  			<div class="numbertext">1 / 3</div>
+  				<img src="../images/k3prf_archi.png" style="width:100%" onclick="plusSlides(-1)">
+  				<div class="text">Kernel 3PRF --- Architecture</div>
+		</div>
+			
 		 <div class="mySlides fade">
-  			<div class="numbertext">1 / 2</div>
+  			<div class="numbertext">2 / 3</div>
   				<img src="../images/K3PRF_short_horizon_plots.png" style="width:100%" onclick="plusSlides(-1)">
-  				<div class="text">Forecasting --- Shorter Horizion</div>
+  				<div class="text"> Out of Sample Forecast --- Shorter Horizion</div>
 			</div>
 
 		 <div class="mySlides fade">
-  			<div class="numbertext">2 / 2</div>
+  			<div class="numbertext">3 / 3</div>
   				<img src="../images/K3PRF_long_horizon_plots.png" style="width:100%" onclick="plusSlides(+1)">
-  				<div class="text">Forecasting --- Longer Horizion</div>
+  				<div class="text">Out of Sample Forecast --- Longer Horizion</div>
 			</div>
 
+		
 		<a class="prev" onclick="plusSlides(-1)">❮</a>
-		<a class="next" onclick="plusSlides(1)">❯</a>
-		 <a class="prev" onclick="plusSlides(-1)">❮</a>
 		<a class="next" onclick="plusSlides(1)">❯</a>
 		</div>
 
